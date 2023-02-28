@@ -55,7 +55,24 @@ main {
         margin-bottom: 15px;
         border: 1px solid black;
         border-radius: 15px;
+
     }
+
+    .farm-relief-upload {
+        /* position: absolute;
+        left: 8.33%;
+        right: 80.42%;
+        top: 7.66%;
+        bottom: 87.09%; */
+
+        font-family: 'Style Script';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 40px;
+        line-height: 61px;
+        color: #38470B;
+    }
+    
    
 
   
