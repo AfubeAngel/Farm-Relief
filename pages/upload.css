@@ -73,6 +73,33 @@ main {
         color: #38470B;
     }
     
-   
+    @media screen and (max-width: 769px) {
+        .container {
+            display: grid;
+            grid-template-columns: 1fr;
+            }
+
+        main {
+            padding: 15px;
+            font-size: small;
+            }
+
+        .upload-box {
+                border: 8px dashed rgb(219, 249, 219);
+                height: 300px;
+                width: 100%;
+           }
+
+            input[type=text], select, textarea {
+        width: 100%;
+        padding: 12px;
+        margin-bottom: 10px;
+    }
+
+    .farm-relief-upload {
+        font-size: 30px;
+        line-height: 31px;
+    }
+      }
 
   
