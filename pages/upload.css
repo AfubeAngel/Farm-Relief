@@ -17,6 +17,28 @@ main {
     gap: 50px;
     }
 
+    .upload-header {
+    display: flex;
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
+    padding: 10px;
+    }
+
+    #lang-drop {
+        width: 180px;
+        height: 30px;
+        margin-left: 30px;
+        margin-top: 20px;
+        border-radius: 0%;
+        border: 1px solid #809a32;
+        padding:3px;
+    }
+
+    .UP-h {
+        font-size: 30px;
+        margin-bottom: 30px;
+    }
+
 .upload-box {
     border: 8px dashed rgb(219, 249, 219);
     height: 500px;
@@ -35,6 +57,10 @@ main {
         color: red;
     }
 
+    .form-head {
+        margin-bottom: 20px;
+    }
+    
     input[type=text], select, textarea {
         width: 80%;
         padding: 12px;
@@ -68,7 +94,7 @@ main {
         font-family: 'Style Script';
         font-style: normal;
         font-weight: 400;
-        font-size: 40px;
+        font-size: 30px;
         line-height: 61px;
         color: #38470B;
     }

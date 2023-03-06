@@ -12,11 +12,15 @@
     <main>
         <div class = "upload-header">
             <p class="farm-relief-upload">Farm Relief</p>
+            <select id="lang-drop" name="lang-drop">
+              <option value="English">English</option> 
+              <option value="French">French</option>
+            </select>
         </div>
 
         <div class="container">
             <div class = "img-upload">
-                <h3>Upload your farm produce</h3>
+                <h3 class = UP-h>Upload your farm produce</h3>
             <div class = "upload-box">
                 <div class="icon"><i class="fas fa-cloud-upload-alt"></i></div>
                 <header>Drop files to Upload</header>
@@ -29,7 +33,7 @@
 
             <div class="details-upload">
                 <form action="action_page.php">
-                    <h3>Produce Information</h3>
+                    <h3 class ="form-head">Produce Information</h3>
                     <div class="grp">
                         <div class="title">
                           <label for="pname">Produce name</label>
