@@ -21,7 +21,8 @@ main {
     display: flex;
     border-top: 1px solid grey;
     border-bottom: 1px solid grey;
-    padding: 10px;
+    padding: 5px;
+    margin-bottom: 5px;
     }
 
     #lang-drop {
@@ -85,12 +86,6 @@ main {
     }
 
     .farm-relief-upload {
-        /* position: absolute;
-        left: 8.33%;
-        right: 80.42%;
-        top: 7.66%;
-        bottom: 87.09%; */
-
         font-family: 'Style Script';
         font-style: normal;
         font-weight: 400;
