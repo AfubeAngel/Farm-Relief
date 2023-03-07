@@ -1,0 +1,70 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #E5E5E5;
+    padding: 10px 0 10px 20px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    text-decoration: none;
+}
+
+li {
+    text-decoration: none;
+}
+
+.welcome {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    gap: 50px;
+    height: 400px;
+    margin-top: 23px;
+}
+
+.sec-A1 {
+    border: 2px solid black;
+    background-color: #ABB244;
+    /* opacity: 0.2; */
+}
+
+.sec-A2 {
+    border: 2px solid black;
+    width: 1035px;
+    background-image: url(images/VEGETABLE\ MAIN\ 3.png);
+    background-repeat: no-repeat;
+    background-size: 698px 491px;
+    background-position: bottom right;
+    background-color: #ABB244;
+    /* opacity: 0.2; */
+}
+
+.herosec-1 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 60px;
+    color: #F1653C;
+    width: 488px;
+    height: 60px;
+    margin: 25px;
+}
+
+.herosec-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* padding: 0px 0px 42px; */
+    gap: 18px;
+    width: 534px;
+    height: 302px;
+    margin: 10px;
+    
+}
+
