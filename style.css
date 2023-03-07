@@ -64,7 +64,28 @@ li {
     gap: 18px;
     width: 534px;
     height: 302px;
-    margin: 10px;
-    
+    margin: 10px; 
+}
+
+.home-categories {
+    margin-top: 80px;
+    padding: 10px;
+}
+
+.home-categories h2 {
+    margin-bottom: 12px;
+}
+
+.homecat-img {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    gap: 10px;
+}
+
+.cat-img {
+width: 234px;
+height: 243px;
+background-color: rgba(171, 178, 68, 0.2);
+border-radius: 15px;
 }
 
