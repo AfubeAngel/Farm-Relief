@@ -3,54 +3,101 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width>, initial-scale=1.0">
     <title>FARM RELIEF</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <header>
-        <div class="top-page">
-
+        <div class="top-nav">
+            <div>
+                <a href=""><img src="images/logo.png" /></a>
+            </div>
+            <div id="search-bar">
+                <input type="text" placeholder="Search...">
+                <img src="images/Search-btn.png" />
+            </div>
+            <div id="wish-list">
+                <img src="images/like-icon.png" />
+                <span>wishlist<span>
+                        </a>
+            </div>
+            <div>
+                <a href=""><img src="images/cart-icon.png" /></a>
+            </div>
+            <div>
+                <button id="login-btn">Sign-in</button>
+            </div>
         </div>
 
         <nav>
             <ul>
-                <li><a href = "#">Home</a></li>
-                <li><a href = "">Product</a></li>
-                <li><a href = "">Store</a></li>
-                <li><a href = "">Community</a></li>
-                <li><a href = "About Us"></a></li>
-                <li><a href = "pages/upload.html">Sell as farmer</a></li>
-                <li><a href = "About Us">Help Center</a></li>
-                <p>80895-4536 Call to order</p>
+                <li><a href="#" class="active" style="color:red">Home</a></li>
+                <li><a href="#">Product</a></li>
+                <li><a href="#">Store</a></li>
+                <li><a href="#">Community</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="pages/upload.html">Sell as farmer</a></li>
+                <li><a href="About Us">Help Center</a></li>
+                <li>80895-4536 Call to order</li>
             </ul>
         </nav>
     </header>
 
     <main>
         <div class="welcome">
-            <section class="sec-A1">
-                <h3>Categories</h3>
+            <section class="left-section">
+                <div class="all-items">
+                    <div class="first-item">
+                        <img src="images/layout-grid.png" style="padding-right: 8px;" />
+                        <h3>Categories</h3>
+                    </div>
+                    <div class="cat-items">
+                        <div class="flex-items">Vegetables
+                            <span> <img src="images/greater-than.png" width="24px" height="24px" /> </span>
+                        </div>
+                        <div class="flex-items">Friuts
+                            <img src="images/greater-than.png" width="24px" height="24px" /> </span>
+                        </div>
+                        <div class="flex-items">Diary Products
+                            <img src="images/greater-than.png" width="24px" height="24px" /> </span>
+                        </div>
+                        <div class="flex-items">Tubers
+                            <img src="images/greater-than.png" width="24px" height="24px" /> </span>
+                        </div>
+                        <div class="flex-items">Meat
+                            <img src="images/greater-than.png" width="24px" height="24px" /> </span>
+                        </div>
+                    </div>
+                    <div>
+                        <img src="images/Categories-btn.png" style="cursor: pointer" />
+                    </div>
+                </div>
             </section>
 
-            <section class="sec-A2">
-                <h1 class="herosec-1">Welcome To Farm Relief</h1>
-
-                <div class="herosec-2">
-                    <h1>We Connect Farmers with their Customers</h1>
-                    <p>Get 10% off your first purchase</p>
-                    <button>Register here</button>
+            <section class="right-section">
+                <div id="landing-content">
+                    <h1 id="landing-heading">Welcome To Farm Relief</h1>
+                    <h1>We Connect Farmers</h1>
+                    <h1>With their Customers</h1>
+                    <div id="action-call">
+                        <p>Get 10% off your first purchase</p>
+                        <button>Register Now</button>
+                    </div>
                 </div>
-                
+                <div id="landing-img">
+                    <img src="images/VEGETABLE MAIN 3.png" />
+                </div>
             </section>
         </div>
 
         <div class="home-categories">
-            <img class = cat-img >
-            <img class = cat-img>
-            <img class = cat-img>
-            <img class = cat-img>
-            <img class = cat-img>
+            <img class=cat-img>
+            <img class=cat-img>
+            <img class=cat-img>
+            <img class=cat-img>
+            <img class=cat-img>
         </div>
 
         <div class="home-limited-stock">
@@ -99,7 +146,8 @@
     </main>
 
     <footer>
-        
+
     </footer>
 </body>
+
 </html>
