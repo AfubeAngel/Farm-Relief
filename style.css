@@ -211,20 +211,25 @@ nav ul {
   }
 
 .cat-bar h3 {
-width: 177px;
-/* height: 48px; */
-font-family: 'Poppins';
-font-weight: 600;
-font-size: 25px;
-line-height: 48px;
-letter-spacing: -0.01em;
-color: #000000;
+    width: 177px;
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 48px;
+    letter-spacing: -0.01em;
+    color: #000000;
 }
 
 #cat-link a{
   text-decoration: none;
   padding-left:15px;
   list-style-type: none;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #000000;
 }
 
 #item-img {
