@@ -258,7 +258,8 @@ nav ul {
 
 #catimg-1 #catimg-2 #catimg-3 #catimg-4 #catimg-5 {
  background-repeat: no-repeat;
-  background-size: cover;
+ background-size: cover;
+ background-attachment: fixed;
 }
 
 #cat-img1 {
