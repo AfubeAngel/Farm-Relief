@@ -175,18 +175,17 @@ nav ul {
 }
 
 .mini-links {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-around;
-    padding: 10px;
-    margin-top:100px;
-    width: 1440px;
-    height: 64px;
-    background: #FFFFFF;
-    backdrop-filter: blur(15px);
+  display:flex;
+  justify-content:center;
+  padding:10px;
+  margin-top:100px;
+  width: 1440px;
+  height:64px;
+  background: #FFFFFF;
 }
 
-.mini-links p {
-    padding-left: 10px;
+.mini-links a {
+   padding-left: 20px;
+   text-decoration:none;
+   color:black;
 }
