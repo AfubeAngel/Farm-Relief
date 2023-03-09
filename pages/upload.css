@@ -63,6 +63,11 @@ main {
         color: red;
     }
 
+    .add {
+        text-decoration: none;
+        color: black;
+    }
+
     .form-head {
         margin-bottom: 20px;
     }
