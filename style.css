@@ -258,7 +258,7 @@ nav ul {
 
 #catimg-1 #catimg-2 #catimg-3 #catimg-4 #catimg-5 {
  background-repeat: no-repeat;
- background-size: auto;
+ background-size: contain;
  background-attachment: fixed;
 }
 
