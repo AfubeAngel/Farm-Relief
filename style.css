@@ -186,3 +186,8 @@ nav ul {
     background: #FFFFFF;
     backdrop-filter: blur(15px);
 }
+
+.mini-links p {
+    padding: 10px;
+    gap: 5px;
+}
