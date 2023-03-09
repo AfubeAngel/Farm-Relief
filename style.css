@@ -174,3 +174,15 @@ nav ul {
     color: #fff;
 }
 
+.mini-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 110px 10px 120px;
+    gap: 89px;
+    width: 1440px;
+    height: 64px;
+    background: #FFFFFF;
+    backdrop-filter: blur(15px);
+}
