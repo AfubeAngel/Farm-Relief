@@ -26,10 +26,10 @@ main {
     }
 
     #lang-drop {
-        width: 180px;
+        width: 190px;
         height: 30px;
         margin-left: 30px;
-        margin-top: 20px;
+        margin-top: 30px;
         border-radius: 0%;
         border: 1px solid #809a32;
         padding:3px;
@@ -38,12 +38,14 @@ main {
     .UP-h {
         font-size: 30px;
         margin-bottom: 30px;
+        font-family: 'Poppins';
+        line-height: 48px;
     }
 
 .upload-box {
-    border: 8px dashed rgb(219, 249, 219);
-    height: 500px;
-    width: 600px;
+    border: 8px dashed #5e8308;
+    /* height: 500px;
+    width: 600px; */
     border-radius: 5px;
     display: flex;
     align-items: center;
@@ -51,6 +53,9 @@ main {
     flex-direction: column;
     margin-top: 10px;
     margin-bottom: 10px;
+    box-sizing: border-box;
+    width: 570px;
+    height: 470px;
     }
 
    .icon{
@@ -73,7 +78,20 @@ main {
 
     .upload-btn {
         display: flex;
-        justify-content: space-between;
+        gap: 55px;
+        /* justify-content: space-between; */
+    }
+
+    .upload-btn1 {
+        background: #206924;
+        border: 1px solid #206924;
+        border-radius: 24px;
+    }
+
+    .upload-btn2 {
+        background: #FFFFFF;
+        border: 1px solid #206924;
+        border-radius: 24px;
     }
 
     button {
@@ -86,12 +104,10 @@ main {
     }
 
     .farm-relief-upload {
-        font-family: 'Style Script';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 30px;
-        line-height: 61px;
-        color: #38470B;
+        width: 150px;
+        height: 62.27px;
+        color: rgba(39, 157, 65, 0.75);
+        margin-top: 17px;
     }
     
     @media screen and (max-width: 769px) {
