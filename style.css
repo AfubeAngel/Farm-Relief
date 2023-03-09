@@ -256,3 +256,23 @@ nav ul {
   margin-top:200px;
 }
 
+#catimg-1 #catimg-2 #catimg-3 #catimg-4 #catimg-5 {
+ background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#cat-img1 {
+  background-image: url('images/vegtable.jpg');
+}
+#cat-img2 {
+  background-image: url('images/Fruits.jpg');
+}
+#cat-img3 {
+  background-image: url('images/dairy.jpg');
+}
+#cat-img4 {
+  background-image: url('images/tubers.jpg');
+}
+#cat-img5 {
+  background-image: url('images/meat.jpg');
+}
